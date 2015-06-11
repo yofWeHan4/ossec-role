@@ -11,6 +11,9 @@ Requirements
 A compiler must be present on the node machine in order to compile OSSEC from source.
 
 
+**PLEASE NOTE**: Before to install OSSEC this role will stop any existing instance and will remove /var/ossec if already present on the system.
+
+
 Role Variables
 --------------
 
