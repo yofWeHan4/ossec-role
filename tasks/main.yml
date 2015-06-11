@@ -1,0 +1,5 @@
+---
+# tasks file for ossec-role
+
+- include: ossec.yml
+  when: ansible_architecture == 'x86_64'
